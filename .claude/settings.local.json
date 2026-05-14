@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/mac/WebStormProjects/claude-vibe-coding/001 log --oneline -5)",
+      "mcp__plugin_ecc_playwright__browser_navigate",
+      "Bash(find /var/folders -name \"*.png\" -mmin -30 2>/dev/null | head -20; find /tmp -name \"*.png\" -mmin -30 2>/dev/null | head -20)",
+      "Read(//private/var/folders/**)",
+      "Read(//private/tmp/**)",
+      "Bash(open /Users/mac/WebStormProjects/claude-vibe-coding/001/image.png)",
+      "Bash(python3 -c ' *)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "WebSearch",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:www.geeksforgeeks.org)",
+      "Bash(ls /Users/mac/WebStormProjects/claude-vibe-coding/)",
+      "Read(//Users/mac/WebStormProjects/claude-vibe-coding/**)"
+    ]
+  }
+}
